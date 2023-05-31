@@ -1,0 +1,267 @@
+body {margin: 0;
+}
+
+.header a {color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+/*header*/
+
+.header {width: 100%;
+    height: 20vh;
+    display: grid;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+}
+
+
+#divbutaos {display: inline-flex;
+    justify-content: space-evenly;
+    top: 0;
+    left: 50%;
+    margin-left: 1.7%;
+    margin-top: 40px;
+    }
+
+#divbutaos input {border-radius: 5px;
+    border-width: 1px;
+    border: none;
+    padding: 3px;
+    background-color: rgb(197, 197, 197);
+}
+
+.butaos {text-align: center;
+}
+
+.hoverbtn {border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    transition: background-color 0.3s;
+}
+
+.hoverbtn:hover {cursor: pointer;
+    background-color: rgb(197, 197, 197);
+    background-size: 30px;
+}
+
+#divlogo {text-align: center;
+}
+
+#divlogo img {width: 130px;
+}
+
+.imgsacola {width: 30px;
+    margin-bottom: -7px;
+}
+
+.imgcasinha {margin-bottom: -3px;
+    margin-right: 3px;
+}
+
+.imglupinha {margin-bottom: -6px;
+    margin-left: -12px;
+    background-color: rgb(197, 197, 197);
+    padding-left: 8px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+#divbarrinha img {width: 100%;
+    margin-right: -30px;
+    margin-top: 20px;
+}
+
+
+
+/*botoes de categorias*/
+
+#categorias {height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-top: 100px;
+}
+
+@media (max-width:1230px) {#categorias {height: 200px;}}
+
+#categoriasbtn {display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;   
+    text-align: center;
+    grid-gap: 75px;
+}
+
+.botoes {background-color: #a5a3f6;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 30%);
+    font-family: 'IBM Plex Sans Thai', serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    cursor: pointer;
+    height: 30px;
+}
+.botoes:hover {border: solid;
+    border-width: 1px;
+    border-color: #6865fc;
+}
+
+@media (max-width:1230px){#categoriasbtn {grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+}
+
+
+
+/*bannerzinho*/
+
+#banner {width: 100%;
+    margin-top: 50px;
+}
+
+#banner img {width: 100%
+}
+
+
+
+/*produtos*/
+
+#produtos {width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media (max-width:1400px) {#produtos {grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
+
+@media (max-width:700px) {#produtos {grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
+
+.produtos img {border: solid;
+    border-color: #a5a3f6;
+    border-width: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.produtos p {font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.produtos h1 {margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'Padauk', sans-serif;
+    font-weight: bolder;
+}
+
+.produtos button {background-color: #deddfc;
+    border: solid;
+    border-color: #a5a3f6;
+    border-radius: 15px;
+    border-width: 1.5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.produtos button:hover {border-color: #6865fc;
+}
+
+.ash img {width: 245px;
+    height: 364px
+}
+
+
+
+/*footer*/
+
+footer {background-color: #232238;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+footer div {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'IBM Plex Sans Thai', serif;
+    justify-content: space-evenly;
+}
+
+footer div ul {list-style: none;
+    font-size: 1.2em;
+}
+
+footer div ul li {display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+footer div ul li:hover {text-decoration: underline;
+}
+
+
+
+.titulo {font-weight: 500;
+    font-size: 1.4em;
+}
+.titulo img {margin-right: 7px;
+}
+.titulo:hover {text-decoration: none;
+    cursor:default
+}
+
+
+
+figure {width: 20px;
+    height: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+figure img {width: 100%;
+}
+
+#face img {width: 50% 
+}
+
+#yt img {width: 130%
+}
+
+
+
+.menor {font-size: 0.7em;
+}
+
+
+
+#divlocal ul li {padding: 0;
+    margin: 0
+}
+
+ul {margin-left: 80px;
+    margin-right: 80px;
+}

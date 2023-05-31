@@ -1,0 +1,371 @@
+body {margin: 0;
+}
+
+.header a {color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+/*header*/
+
+.header {width: 100%;
+    height: 20vh;
+    display: grid;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+}
+
+
+#divbutaos {display: inline-flex;
+    justify-content: space-evenly;
+    top: 0;
+    left: 50%;
+    margin-left: 1.7%;
+    margin-top: 40px;
+    }
+
+#divbutaos input {border-radius: 5px;
+    border-width: 1px;
+    border: none;
+    padding: 3px;
+    background-color: rgb(197, 197, 197);
+}
+
+.butaos {text-align: center;
+}
+
+.hoverbtn {border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    transition: background-color 0.3s;
+}
+
+.hoverbtn:hover {cursor: pointer;
+    background-color: rgb(197, 197, 197);
+    background-size: 30px;
+}
+
+#divlogo {text-align: center;
+}
+
+#divlogo img {width: 130px;
+}
+
+.imgsacola {width: 30px;
+    margin-bottom: -7px;
+}
+
+.imgcasinha {margin-bottom: -3px;
+    margin-right: 3px;
+}
+
+.imglupinha {margin-bottom: -6px;
+    margin-left: -12px;
+    background-color: rgb(197, 197, 197);
+    padding-left: 8px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+#divbarrinha img {width: 100%;
+    margin-right: -30px;
+    margin-top: 20px;
+}
+
+
+
+/*titulo categorias*/
+
+.categoriastitle {text-align: center;
+    padding-top: 20px;
+}
+
+.categoriastitle h1 {font-family: 'IBM Plex Sans Thai';
+    font-size: 2em;
+}
+
+
+
+/*botoes de categorias*/
+
+#categoriasflex {display: flex;
+    justify-content: center;
+}
+
+#categoriasflex a {text-decoration: none;
+    color: black;
+}
+
+#categorias {width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.categoriasbtn {padding-top: 30px;
+    padding-bottom: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    height: 30px;
+    font-size: 1.3em;
+    vertical-align: middle;
+    font-family: 'IBM Plex Sans Thai';
+    font-weight: 500;
+    z-index: 9;
+}
+.categoriasbtn:hover {font-size: 1.4em;
+    transform: scale(1.1)
+}
+
+
+
+.upper {background-color: #a5a3f6;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+}
+.upper img {width: 50px;
+    margin-right: 20px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+
+
+
+.lower {background-color: #deddfc;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+}
+.lower img {width: 50px;
+    margin-right: 20px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+
+
+
+.laces {background-color: #a5a3f6;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+}
+.laces img {width: 50px;
+    margin-right: 20px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+
+
+
+.piercings {background-color: #deddfc;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+}
+.piercings img {width: 50px;
+    margin-right: 20px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+
+
+
+.calcados {background-color: #a5a3f6;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+}
+.calcados img {width: 50px;
+    margin-right: 20px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+
+
+
+.acessorios {background-color: #deddfc;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+}
+.acessorios img {width: 50px;
+    margin-right: 20px;
+    margin-top: -6px;
+    vertical-align: middle;
+}
+
+
+
+
+/*banner*/
+
+#banner img {width: 100%;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 20%);
+    margin-bottom: 100px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+
+
+
+/*romwe titulo*/
+
+#romwetitle {font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+/*romwe roupinhas*/
+
+#romwe {width: 80%;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    grid-template-rows: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+@media (max-width:1200px) {#romwe { grid-template-columns: 450px;
+    grid-template-rows: 300px 300px 300px;
+    grid-row-gap: 100px;
+}}
+
+
+.roupas {position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.roupas img {width: 100%;
+    transition: all 0.5s;
+}
+.roupas img:hover {transform: scale(1.2);
+}
+
+.imgroupas {width: 60%;
+    overflow: hidden;
+    border-radius: 22px;
+}
+
+
+
+.textos {position: absolute;
+    left: 20%;
+    background-color: #d9d9d9;
+    width: 60%;
+    text-align: center;
+    border-radius: 22px 22px 0px 0px;
+    font-family: 'Cinzel', serif;
+    font-size: 1.6em;
+    padding-top: 20px;
+    margin-top: -1px;
+    padding-bottom: 10px;
+    z-index: 2;
+}
+
+
+
+.preco {position: absolute;
+    bottom: 30px;
+    left: 130px;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.6em;
+}
+
+.precoluvr {position: absolute;
+    top: 80px;
+    left: 120px;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.6em;
+}
+
+a {font-weight: 900;}
+
+
+
+/*footer*/
+
+footer {background-color: #232238;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+footer div {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'IBM Plex Sans Thai', serif;
+    justify-content: space-evenly;
+}
+
+footer div ul {list-style: none;
+    font-size: 1.2em;
+}
+
+footer div ul li {display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+footer div ul li:hover {text-decoration: underline;
+}
+
+
+
+.titulo {font-weight: 500;
+    font-size: 1.4em;
+}
+.titulo img {margin-right: 7px;
+}
+.titulo:hover {text-decoration: none;
+    cursor:default
+}
+
+
+
+figure {width: 20px;
+    height: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+figure img {width: 100%;
+}
+
+#face img {width: 50% 
+}
+
+#yt img {width: 130%
+}
+
+
+
+.menor {font-size: 0.7em;
+}
+
+
+
+#divlocal ul li {padding: 0;
+    margin: 0
+}
+
+ul {margin-left: 80px;
+    margin-right: 80px;
+}
+
+footer a {text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
